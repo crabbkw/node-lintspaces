@@ -178,3 +178,21 @@ option to the desired path.
 ```javascript
 	rcconfig: 'path/to/.customrc'
 ```
+
+#### Example configuration
+
+An example ```.lintspacesrc``` configruation formatted as json can look like
+this:
+
+```json
+	{
+		"newline": true,
+		"newlineMaximum": 2,
+		"trailingspaces": true,
+		"indentation": "tabs",
+		"ignores": [
+			"js-comments",
+			"html-comments"
+		]
+	}
+```
