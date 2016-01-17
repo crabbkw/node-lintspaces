@@ -179,8 +179,6 @@ option to the desired path.
 	rcconfig: 'path/to/.customrc'
 ```
 
-#### Example configuration
-
 An example ```.lintspacesrc``` configruation formatted as json can look like
 this:
 
